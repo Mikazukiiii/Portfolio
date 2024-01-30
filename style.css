@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  background-size: cover;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 30px 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  font-size: 30px;
+
+}
+
+nav ul li {
+  margin-right: 80px;
+}
+
+nav ul li a {
+  color: #000000;
+  position: relative;
+  padding: 5px 0;
+}
+
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #4f6f52;
+  transition: 0.3s;
+  bottom: 0;
+}
+
+nav ul li a:hover:after {
+  width: 100%;
+}
+
+.Content {
+  text-align: center;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+
+/* ... (your existing CSS code) ... */
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Profile {
+  display: block;
+  width: 300px;
+  margin-right: 40px; /* Adjust the margin as needed */
+}
+
+/* ... (your existing CSS code) ... */
+
+
+
+
+.Content h1 {
+  color: #000000;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 20px;
+  text-align: center;
+}
+
+.Content h1 span {
+  color: #4F6F52;
+}
+
+.Content .Title {
+  color: #000000;
+  font-family: "Arial";
+  font-size: 25px;
+  letter-spacing: 70%;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.Information {
+  width: 15cm;
+  margin-top: 40px; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+}
+
+.Sec {
+  width: 100%;
+  height: 100vh;
+  background-color: #f0f0f0;
+  background-size: cover;
+}
+
+.Sec h1{
+margin-bottom: 200px;
+}
+
+.Sec h2 {
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  color: #86A789;
+  font-family: 'Arial', sans-serif;
+  font-size: 25px;
+  margin: 0 auto; /* Center the element */
+}
+
+.Sec h3 {
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  color: #739072;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 45px;
+  margin: 0 auto; /* Center the element */
+  margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.Sec p {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 50;
+  margin-right: 200px;
+  margin-left: 200px;
+  text-align: center;
+}
+.Third {
+  width: 100%;
+  height: 60vh;
+  background-color: #f0f0f0;
+  background-size: cover;
+}
+
+
+
+.Third h2{
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  color: #86A789;
+  font-family: 'Arial', sans-serif;
+  font-size: 25px;
+  margin: 0 auto; /* Center the element */
+}
+
+.Third h3{
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  color: #739072;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 45px;
+  margin: 0 auto; /* Center the element */
+  margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.social-icons {
+  margin-top: 10px; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+}
+
+.Inform {
+  width: 18cm;
+  margin-top: 40px; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  margin: 0 auto; /* Center the element */
+}
+
+.instagram {
+  margin-top: 5px; /* Adjust as needed */
+  margin-right: 10px;
+}
+.facebook{
+  margin-top: 5px; /* Adjust as needed */
+  margin-right: 30px;
+}
