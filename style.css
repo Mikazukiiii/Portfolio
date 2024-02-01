@@ -33,7 +33,7 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
-  font-size: 20px;
+  font-size: 13px;
 
 }
 
@@ -62,8 +62,22 @@ nav ul li a:hover:after {
   width: 100%;
 }
 
+.Backone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5cm;
+  height: 5cm;
+  object-fit: cover;
+  z-index: 0;
+}
+
+
+
 .Content {
   text-align: center;
+  right: 0;
+  left: 0 auto;
 }
 
 .profile-info {
@@ -76,8 +90,6 @@ nav ul li a:hover:after {
 
 
 
-/* ... (your existing CSS code) ... */
-
 .profile-container {
   display: flex;
   align-items: center;
@@ -89,11 +101,6 @@ nav ul li a:hover:after {
   width: 150px;
   margin-right: 40px; /* Adjust the margin as needed */
 }
-
-/* ... (your existing CSS code) ... */
-
-
-
 
 .Content h1 {
   color: #000000;
@@ -153,7 +160,7 @@ margin-bottom: 80px;
   font-family: 'Segoe UI', sans-serif;
   font-size: 45px;
   margin: 0 auto; /* Center the element */
-  margin-bottom: 20px; /* Add margin for spacing */
+  margin-bottom: 20px; 
 }
 
 .Sec p {
